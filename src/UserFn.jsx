@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useLayoutEffect } from 'react'
 import UserItem from './UserItem';
 
 function UserFn() {
   const [userlist, setuserlist] = useState([]);
-  useEffect(() => {
+  useLayoutEffect(() => {
     const URL = 'https://jsonplaceholder.typicode.com/photos?_start=0&_limit=5';
     fetch(URL)
       .then(response => response.json())
