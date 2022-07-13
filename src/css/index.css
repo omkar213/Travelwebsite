@@ -14,6 +14,8 @@ body {
   width: 100%;
   height: auto;
   font-family: 'Roboto', sans-serif;
+  background-color: #E9E7E7;
+
 }
 
 .Navbar {
@@ -60,9 +62,8 @@ border: 1px solid #000;
   font-size: 1.6rem;
 }
 .Banner-left .btn, .Choose-left .btn{
-  padding: 0px !important;
-  margin: 0px !important;
-  margin-top: 1.3rem !important;
+ 
+  margin-top: 1.3rem;
   width: 17rem;
   background: #000;
   color:#ffff;
@@ -119,4 +120,93 @@ border: 1px solid #000;
 .Choose-left p{
   max-width: 36rem;
   font-size: 1.4rem;
+}
+.Blog{
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+.Blog-content{
+  max-width: 39rem;
+  margin: auto;
+  min-height: 40rem;
+}
+.Blog-content h1{
+  font-size: 4.5rem;
+}
+.icon i{
+  font-size: 6.5rem;
+  margin-bottom: 2rem;
+}
+.blog-right{
+  min-height: 50rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 50rem 0rem; */
+}
+.blog-right-content{
+  margin-top: 2rem;
+}
+.blog-right-content p{
+  font-size: 1.4rem;
+  margin-left: 2rem;
+}
+
+/* travel */
+.travel{
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 100%;
+}
+.travel .box{
+  max-width: 30rem;
+}
+.travel .box img{
+  max-width: 100%;
+margin-bottom: 3rem;
+}
+.travel .box h1{
+  font-size: 2.9rem;
+  margin-bottom: 1rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .Banner,.Banner-left,.Banner-right,.Banner div,.choose-anywhere,.choose-anywhere div, .Blog{
+    display: block !important;
+    min-height: 100%;
+  }
+  .Banner-right img,.Choose-right img{
+    max-width: 100%;
+  }
+  
+.Banner-left h1, .Choose-left h1 {
+  max-width: 100%;
+  font-size: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.Banner-left .btn, .Choose-left .btn {
+  margin-top: 1.3rem !important;
+  width: 19rem;
+  background: #000;
+  color: #ffff;
+  border: none;
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+}
+.Blog-content{
+  max-width: 100%;
+  min-height: 100%;
+  display: block !important;
+}
+.Blog .d-flex,.blog-right{
+  display: block !important;
+}
+.travel,
+.travel .container div{
+  display: block !important;
+}
 }
