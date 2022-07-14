@@ -25,6 +25,18 @@ body {
   align-items: center;
   position: fixed;
 }
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+
 .Navbar ul li a {
   font-size: 1.6rem;
   color: #000;
@@ -72,7 +84,7 @@ border: 1px solid #000;
 }
 .Banner-left,.Choose-left{
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
 }
 .Banner-right,
@@ -172,8 +184,45 @@ margin-bottom: 3rem;
   margin-bottom: 1rem;
 }
 
-
 @media only screen and (max-width: 767px) {
+ 
+  .navbar-ul{
+    display: none;
+    }
+  
+  
+  .navbar-ul li {
+    margin: 19px 16px;
+  }
+
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    right: 12px;
+    font-size: 20px;
+    top: 20px;
+    color: #000;
+  }
+  .navbar-mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .navbar-mobile {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+  }
+.contact-btn{
+  display: none !important;
+}
+  
+
+
   .Banner,.Banner-left,.Banner-right,.Banner div,.choose-anywhere,.choose-anywhere div, .Blog{
     display: block !important;
     min-height: 100%;
