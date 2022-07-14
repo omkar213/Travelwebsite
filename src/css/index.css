@@ -220,8 +220,6 @@ margin-bottom: 3rem;
 .contact-btn{
   display: none !important;
 }
-  
-
 
   .Banner,.Banner-left,.Banner-right,.Banner div,.choose-anywhere,.choose-anywhere div, .Blog{
     display: block !important;
@@ -257,5 +255,52 @@ margin-bottom: 3rem;
 .travel,
 .travel .container div{
   display: block !important;
+}
+}
+@media (min-width:768px) and (max-width:1024px) {
+.Navbar{
+  position: sticky;
+}
+.Banner .container div, .choose-anywhere .container div{
+  display: block !important;
+}
+.Banner-left h1, .Choose-left h1{
+  max-width: 100%;
+}
+.Banner-right img, .Choose-right img {
+  max-width: 100%;
+ 
+}
+.Banner-right, .Choose-right {
+  display: block;
+
+}
+.Choose-left p {
+  max-width: 100%;
+  font-size: 1.4rem;
+}
+.travel{
+  margin: 12rem 0rem;
+  display: block;
+  min-height: 100%;
+}
+.Blog .container div,.travel .container div{
+  display: block !important;
+  text-align: center;
+}
+.travel .box {
+  max-width: 100%;
+  margin: auto;
+}
+.travel .box p{
+  font-size: 1.8rem;
+}
+.Blog-content{
+  max-width: 100%;
+  min-height: 100%;
+  margin: 5rem 0rem;
+}
+.Blog-content p{
+  font-size: 1.8rem;
 }
 }
