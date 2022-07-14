@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 63%;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  background-color: #E9E7E7;
+
+}
+
+.Navbar {
+  display: flex;
+  height: 7rem;
+  background: #ffffff;
+  align-items: center;
+  position: fixed;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+
+.Navbar ul li a {
+  font-size: 1.6rem;
+  color: #000;
+}
+
+a.active {
+  color: #F02B4D !important;
+  border-bottom: 1px solid #000;
+}
+.Navbar .btn{
+  font-size: 1.6rem;
+  color:#000;
+  background: transparent;
+border: 1px solid #000;
+}
+.Banner,
+.choose-anywhere{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+/* .Banner-left, .Choose-left{
+  max-width: 50%;
+
+} */
+.Banner-left h1,.Choose-left h1{
+  max-width: 36rem;
+  font-size: 7rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.Banner-left p,.Choose-left p{
+  max-width: 36rem;
+  font-size: 1.6rem;
+}
+.Banner-left .btn, .Choose-left .btn{
+ 
+  margin-top: 1.3rem;
+  width: 17rem;
+  background: #000;
+  color:#ffff;
+  border:none;
+  font-size: 1.9rem;
+}
+.Banner-left,.Choose-left{
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.Banner-right,
+.Choose-right{
+  display: flex;
+  align-items: center;
+}
+.Banner-right img,
+.Choose-right img{
+  max-width: 55rem;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.memory{
+  max-width: 100%;
+  min-height: 43rem;
+  background: #333333;
+  color: #ffff;
+}
+.memory-content{
+  display: flex;
+    flex-direction: column;
+    max-width: 32rem;
+    margin: auto;
+}
+.memory-content h1{
+  font-size: 4rem;
+  margin: 2rem 0rem;
+}
+.memory-content p{
+  font-size: 1.3rem;
+}
+.memory-btn .btn{
+  width: 15rem;
+  margin-top: 2rem;
+  background: none;
+  font-size: 1.9rem;
+  border: 1px solid #fff;
+}
+.Choose-left h1{
+  font-size: 4rem;
+}
+.Choose-left p{
+  max-width: 36rem;
+  font-size: 1.4rem;
+}
+.Blog{
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+.Blog-content{
+  max-width: 39rem;
+  margin: auto;
+  min-height: 40rem;
+}
+.Blog-content h1{
+  font-size: 4.5rem;
+}
+.icon i{
+  font-size: 6.5rem;
+  margin-bottom: 2rem;
+}
+.blog-right{
+  min-height: 50rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 50rem 0rem; */
+}
+.blog-right-content{
+  margin-top: 2rem;
+}
+.blog-right-content p{
+  font-size: 1.4rem;
+  margin-left: 2rem;
+}
+
+/* travel */
+.travel{
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 100%;
+}
+.travel .box{
+  max-width: 30rem;
+}
+.travel .box img{
+  max-width: 100%;
+margin-bottom: 3rem;
+}
+.travel .box h1{
+  font-size: 2.9rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+ 
+  .navbar-ul{
+    display: none;
+    }
+  
+  
+  .navbar-ul li {
+    margin: 19px 16px;
+  }
+
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    right: 12px;
+    font-size: 20px;
+    top: 20px;
+    color: #000;
+  }
+  .navbar-mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .navbar-mobile {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+  }
+.contact-btn{
+  display: none !important;
+}
+
+  .Banner,.Banner-left,.Banner-right,.Banner div,.choose-anywhere,.choose-anywhere div, .Blog{
+    display: block !important;
+    min-height: 100%;
+  }
+  .Banner-right img,.Choose-right img{
+    max-width: 100%;
+  }
+  
+.Banner-left h1, .Choose-left h1 {
+  max-width: 100%;
+  font-size: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.Banner-left .btn, .Choose-left .btn {
+  margin-top: 1.3rem !important;
+  width: 19rem;
+  background: #000;
+  color: #ffff;
+  border: none;
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+}
+.Blog-content{
+  max-width: 100%;
+  min-height: 100%;
+  display: block !important;
+}
+.Blog .d-flex,.blog-right{
+  display: block !important;
+}
+.travel,
+.travel .container div{
+  display: block !important;
+}
+}
+@media (min-width:768px) and (max-width:1024px) {
+.Navbar{
+  position: sticky;
+}
+.Banner .container div, .choose-anywhere .container div{
+  display: block !important;
+}
+.Banner-left h1, .Choose-left h1{
+  max-width: 100%;
+}
+.Banner-right img, .Choose-right img {
+  max-width: 100%;
+ 
+}
+.Banner-right, .Choose-right {
+  display: block;
+
+}
+.Choose-left p {
+  max-width: 100%;
+  font-size: 1.4rem;
+}
+.travel{
+  margin: 12rem 0rem;
+  display: block;
+  min-height: 100%;
+}
+.Blog .container div,.travel .container div{
+  display: block !important;
+  text-align: center;
+}
+.travel .box {
+  max-width: 100%;
+  margin: auto;
+}
+.travel .box p{
+  font-size: 1.8rem;
+}
+.Blog-content{
+  max-width: 100%;
+  min-height: 100%;
+  margin: 5rem 0rem;
+}
+.Blog-content p{
+  font-size: 1.8rem;
+}
+}
