@@ -4,9 +4,9 @@ import Navbar from "./Component/Navbar";
 import Home from './Component/Pages/Home'
 import Blog from "./Component/Pages/Blog";
 import Contact from "./Component/Pages/Contact";
-import AboutUSsection from './AboutUS-section';
-import Servicesection from './Service-section';
-import Footersection from './Footer-section';
+import AboutUSsection from './Component/Pages/AboutUS-section';
+import Servicesection from './Component/Pages/Service-section';
+import Footer from "./Component/Footer";
 function App() {
 
   return (
@@ -18,8 +18,9 @@ function App() {
         <Route exact path='/contact' element={<Contact />} />
         <Route exact path='/service' element={<Servicesection />} />
         <Route exact path='/about' element={<AboutUSsection />} />
-        <Route exact path='/footer' element={<Footersection />} />
+        {/* <Route exact path='/footer' element={<Footer />} /> */}
       </Routes>
+      <Footer/>
     </>
   );
 }

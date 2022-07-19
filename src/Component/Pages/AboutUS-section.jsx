@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from 'react-slick';
-import aboutusimage1 from './images/aboutus-image1.png';
-import aboutusimage2 from './images/aboutus-image2.png';
+import aboutusimage1 from '../../images/aboutus-image1.png';
+import aboutusimage2 from '../../images/aboutus-image2.png';
 
 export default class SimpleSlider extends Component {
   render() {
@@ -53,7 +53,7 @@ export default class SimpleSlider extends Component {
         <Slider {...settings}>
             <div className="slider-blog-box">
                 <div className="profile">
-                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <a href="#"><i className="fa-solid fa-user"></i></a>
                 </div>
                 <h2>Customer Name</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adip
@@ -63,7 +63,7 @@ export default class SimpleSlider extends Component {
             </div>
             <div className="slider-blog-box">
                 <div className="profile">
-                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <a href="#"><i className="fa-solid fa-user"></i></a>
                 </div>
                 <h2>Customer Name</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adip
@@ -73,7 +73,7 @@ export default class SimpleSlider extends Component {
             </div>
             <div className="slider-blog-box">
                 <div className="profile">
-                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <a href="#"><i className="fa-solid fa-user"></i></a>
                 </div>
                 <h2>Customer Name</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adip
@@ -83,7 +83,7 @@ export default class SimpleSlider extends Component {
             </div>
             <div className="slider-blog-box">
                 <div className="profile">
-                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <a href="#"><i className="fa-solid fa-user"></i></a>
                 </div>
                 <h2>Customer Name</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adip
@@ -93,7 +93,7 @@ export default class SimpleSlider extends Component {
             </div>
             <div className="slider-blog-box">
                 <div className="profile">
-                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <a href="#"><i className="fa-solid fa-user"></i></a>
                 </div>
                 <h2>Customer Name</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adip
@@ -103,7 +103,7 @@ export default class SimpleSlider extends Component {
             </div>
             <div className="slider-blog-box">
                 <div className="profile">
-                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <a href="#"><i className="fa-solid fa-user"></i></a>
                 </div>
                 <h2>Customer Name</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adip

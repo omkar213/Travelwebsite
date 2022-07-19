@@ -12,7 +12,7 @@ const Blog = () => {
                 <div className='container'>
                     <div className='Blog-content d-flex flex-column justify-content-center align-items-center'>
                         <div className='icon'>
-                            <i class="fa-solid fa-plane-up"></i>
+                            <i className="fa-solid fa-plane-up"></i>
                         </div>
                         <h1 className=''>See places you’v<br />e<u>never</u> been before</h1>
                         <p>Lorem, ipsum dolor sit amet consectetur.</p>

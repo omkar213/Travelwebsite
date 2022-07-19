@@ -401,32 +401,32 @@ margin-bottom: 3rem;
 .aboutUS-image2 img{
   max-width: 100%;
 }
-.contect-section {
+.contact-section {
   padding-top: 100px;
   margin-bottom: 30px;
 }
-.contectwrapper{
+.contactwrapper{
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.contect-left{
+.contact-left{
   width: 50%;
   display: flex;
   flex-direction: column;
   padding-left: 100px;
 }
-.contect-right {
+.contact-right {
   width: 50%;
   display: flex;
   align-items: flex-end;
 }
-.contect-form{
+.contact-form{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-.contect-left h2{
+.contact-left h2{
   font-size: 77px;
   color: #232323;
   margin-bottom: 50px;
@@ -451,10 +451,10 @@ margin-bottom: 3rem;
   border-radius: 5px;
   margin-top: 40px;
 }
-.contect-right-image{
+.contact-right-image{
   max-width: 563px;
 }
-.contect-right-image img{
+.contact-right-image img{
   max-width: 100%;
 }
 .inner-input::-webkit-input-placeholder { /* Edge */
@@ -601,11 +601,11 @@ margin-bottom: 3rem;
   .footer-folder-1 {
     padding: 0px 11px;
   }
-  .contect-left {
+  .contact-left {
     width: 46%;
     padding-left: 31px;
   }
-  .contect-left h2 {
+  .contact-left h2 {
     margin-bottom: 16px;
     font-size: 66px;
   }
@@ -613,13 +613,13 @@ margin-bottom: 3rem;
     margin-bottom: 20px;
     max-width: 376px;
   }
-  .contect-right {
+  .contact-right {
     width: 54%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
   }
-  .contect-right-image {
+  .contact-right-image {
     max-width: 457px;
   }
   .submit {
@@ -671,14 +671,14 @@ margin-bottom: 3rem;
   .slider-blog-box p {
     font-size: 16px;
   }
-  .contect-left {
+  .contact-left {
     width: 46%;
     padding-left: 13px;
   }
-  .contect-right {
+  .contact-right {
     width: 54%;
   }
-  .contect-left h2 {
+  .contact-left h2 {
     font-size: 57px;
     margin-bottom: 12px;
   }
@@ -750,11 +750,11 @@ margin-bottom: 3rem;
   .aboutUS-section {
     padding-top: 1px;
   }
-  .contectwrapper{
+  .contactwrapper{
     display: flex;
     flex-direction: column;
   }
-  .contect-left {
+  .contact-left {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -763,18 +763,18 @@ margin-bottom: 3rem;
     align-items: center;
     padding-left: 0px;
   }
-  .contect-form{
+  .contact-form{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
-  .contect-right{
+  .contact-right{
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 50px;
   }
-  .contect-right-image {
+  .contact-right-image {
     max-width: 100%;
   }
   .slider-blog-box p {
@@ -815,7 +815,7 @@ margin-bottom: 3rem;
   .footer-folder-2 span{
     padding-left: 50px;
   }
-  .contect-left h2 {
+  .contact-left h2 {
     font-size: 72px;
   }
   .inner-input, .text-massege {
@@ -824,15 +824,15 @@ margin-bottom: 3rem;
   .submit {
     max-width: 403px;
   }
-  .contect-right-image {
+  .contact-right-image {
     max-width: 61%;
   }
 }
 @media only screen and (max-width: 767px){
-  .contect-left h2 {
+  .contact-left h2 {
     font-size: 52px;
   }
-  .contect-right-image {
+  .contact-right-image {
     max-width: 93%;
   }
   .slidet-text {
@@ -924,4 +924,9 @@ margin-bottom: 3rem;
     width: 100%;
     z-index: 3;
   }
+}
+.Footer{
+  
+  min-height: 6rem;
+  background: #fff;
 }

@@ -22,7 +22,7 @@ const Navbar = () => {
               <i className="fa-solid fa-bars"></i>
             </div>
           <div className=' d-flex contact-btn'>
-            <button className=' btn btn-primary'>Contact Us</button>
+            <button className=' btn btn-primary'><a href="/contact" className=" text-decoration-none"> Contact Us</a></button>
           </div>
         </div>
         </div>

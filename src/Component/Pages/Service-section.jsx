@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from 'react-slick';
-import servicerightimage from './images/service-image.jpg';
+import servicerightimage from '../../images/service-image.jpg';
 
 export default class Bannersection extends Component{
     render() {
@@ -54,7 +54,7 @@ export default class Bannersection extends Component{
                     <Slider {...settings}>
                         <div className="slider-blog-box">
                             <div className="profile">
-                                <a href="#"><i class="fa-solid fa-user"></i></a>
+                                <a href="#"><i className="fa-solid fa-user"></i></a>
                             </div>
                             <h2>Customer Name</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adip
@@ -64,7 +64,7 @@ export default class Bannersection extends Component{
                         </div>
                         <div className="slider-blog-box">
                             <div className="profile">
-                                <a href="#"><i class="fa-solid fa-user"></i></a>
+                                <a href="#"><i className="fa-solid fa-user"></i></a>
                             </div>
                             <h2>Customer Name</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adip
@@ -74,7 +74,7 @@ export default class Bannersection extends Component{
                         </div>
                         <div className="slider-blog-box">
                             <div className="profile">
-                                <a href="#"><i class="fa-solid fa-user"></i></a>
+                                <a href="#"><i className="fa-solid fa-user"></i></a>
                             </div>
                             <h2>Customer Name</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adip
@@ -84,7 +84,7 @@ export default class Bannersection extends Component{
                         </div>
                         <div className="slider-blog-box">
                             <div className="profile">
-                                <a href="#"><i class="fa-solid fa-user"></i></a>
+                                <a href="#"><i className="fa-solid fa-user"></i></a>
                             </div>
                             <h2>Customer Name</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adip
@@ -94,7 +94,7 @@ export default class Bannersection extends Component{
                         </div>
                         <div className="slider-blog-box">
                             <div className="profile">
-                                <a href="#"><i class="fa-solid fa-user"></i></a>
+                                <a href="#"><i className="fa-solid fa-user"></i></a>
                             </div>
                             <h2>Customer Name</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adip
@@ -104,7 +104,7 @@ export default class Bannersection extends Component{
                         </div>
                         <div className="slider-blog-box">
                             <div className="profile">
-                                <a href="#"><i class="fa-solid fa-user"></i></a>
+                                <a href="#"><i className="fa-solid fa-user"></i></a>
                             </div>
                             <h2>Customer Name</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adip
