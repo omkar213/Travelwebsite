@@ -1,0 +1,41 @@
+.wrapper h2{
+    font-size: 25px;
+}
+.accordion-body{
+    border-bottom: 1px solid #000;
+}
+
+.item {
+    position: relative;
+    padding: 20px 0px;
+}
+
+.item span{
+    cursor: pointer;
+    position: absolute;
+    right:0;
+    bottom: 23px;
+    font-size: 20px;
+   
+}
+
+.content{
+    font-size: 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    -webkit-transition: all 0.5s cubic-bezier(0,1,0,1);
+    -moz-transition: all 0.5s cubic-bezier(0,1,0,1);
+    -ms-transition: all 0.5s cubic-bezier(0,1,0,1);
+    -o-transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.content-show{
+   font-size: 18px;
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5 cubic-bezier(1,0,1,0);
+    -webkit-transition: all 0.5 cubic-bezier(1,0,1,0);
+    -moz-transition: all 0.5 cubic-bezier(1,0,1,0);
+    -ms-transition: all 0.5 cubic-bezier(1,0,1,0);
+    -o-transition: all 0.5 cubic-bezier(1,0,1,0);
+  }

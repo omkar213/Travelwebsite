@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <>
       <section className='Footer'>
+        <div className=' container'>
         <div className="footerwrapper">
           <div className="footer-folder-1">
             <h2 className="footer-title">My Log
@@ -38,6 +39,7 @@ const Footer = () => {
             </div>
             <span>2021 - 2022 My Log Travels. All Rights Reserved.</span>
           </div>
+        </div>
         </div>
      
    

@@ -7,6 +7,7 @@ import Contact from "./Component/Pages/Contact";
 import AboutUSsection from './Component/Pages/AboutUS-section';
 import Servicesection from './Component/Pages/Service-section';
 import Footer from "./Component/Footer";
+// import Accodian from "./Component/Pages/Accodian";
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
         {/* <Route exact path='/footer' element={<Footer />} /> */}
       </Routes>
       <Footer/>
+      {/* <Accodian/> */}
     </>
   );
 }
